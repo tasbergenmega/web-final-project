@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Restaurants — News</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+        <div class="header-left">
+            <label for="nav-toggle" class="nav-btn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <a href="index.html" class="brand">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3HdzDLIrYUNQm6jm0815hrYZ7UNNwSeX7U283fPFdA&s=10"
+                     alt="I'm Restaurants">
+                <span>I'm Restaurants</span>
+            </a>
+        </div>
+
+        <div class="header-right">
+            <div id="auth-guest" class="header-auth">
+                <a href="login.html" class="header-link">Login</a>
+                <a href="register.html" class="header-link">Register</a>
+            </div>
+            <div id="auth-user" class="header-auth hidden">
+                <a href="account.html" class="header-link">My Account</a>
+                <a href="login.html" class="header-link">Log Out</a>
+            </div>
+            <a href="cart.html" class="header-cart" aria-label="Cart">
+                🛒
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+
+        <nav class="side-nav" aria-label="Main navigation">
+            <div class="side-nav-title">Navigation</div>
+            <ul>
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="menu.html">🍔 Menu</a></li>
+                <li><a href="about.html">ℹ️ About Us</a></li>
+                <li><a href="contact.html">📞 Contacts</a></li>
+                <li><a href="news.html" class="active">📰 I'm News</a></li>
+                <li><a href="delivery.html">🚚 Delivery</a></li>
+                </ul>
+        </nav>
+
+        <label for="nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>I'm News</h1>
+            <p>Promotions, new restaurants, and tasty updates — all in one place.</p>
+        </section>
+
+        <section class="section">
+            <h2>Latest News</h2>
+
+            <div class="cards">
+
+                <article class="card news-card">
+                    <img class="card-img"
+                         src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop"
+                         alt="School combo">
+                    <p class="date">20.08.2026</p>
+                    <h3>A delicious start to the school year!</h3>
+                    <p>The new school combo is waiting for you at all I'm restaurants — fresh, fast, and tasty.</p>
+                    <a href="#news-1-full" class="btn btn-small">Read more</a>
+                </article>
+
+                <article class="card news-card">
+                    <img class="card-img"
+                         src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=400&fit=crop"
+                         alt="Mobile app">
+                    <p class="date">18.08.2026</p>
+                    <h3>TASTE OR CLICK?</h3>
+                    <p>Order through the app and get bonus points on every purchase. Save up for a free combo!</p>
+                    <a href="#news-2-full" class="btn btn-small">Read more</a>
+                </article>
+
+                <article class="card news-card">
+                    <img class="card-img"
+                         src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&h=400&fit=crop"
+                         alt="Fries charity">
+                    <p class="date">15.08.2026</p>
+                    <h3>Buy fries — help children!</h3>
+                    <p>Special campaign "September 22" — part of the funds goes to a children's charity.</p>
+                    <a href="#news-3-full" class="btn btn-small">Read more</a>
+                </article>
+
+                <article class="card news-card">
+                    <img class="card-img"
+                         src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&h=400&fit=crop"
+                         alt="New restaurant Almaty">
+                    <p class="date">12.08.2026</p>
+                    <h3>Meet the new I'm in Almaty!</h3>
+                    <p>New restaurant at Alma-Ata Plaza — opening discounts and gifts for the first guests.</p>
+                    <a href="#news-4-full" class="btn btn-small">Read more</a>
+                </article>
+
+                <article class="card news-card">
+                    <img class="card-img"
+                         src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600&h=400&fit=crop"
+                         alt="Almaty birthday">
+                    <p class="date">10.08.2026</p>
+                    <h3>Happy Birthday, Almaty!</h3>
+                    <p>10% off for all residents and guests from September 18 to 24. Come and celebrate with us!</p>
+                    <a href="#news-5-full" class="btn btn-small">Read more</a>
+                </article>
+
+                <article class="card news-card">
+                    <img class="card-img"
+                         src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600&h=400&fit=crop"
+                         alt="Bonus program">
+                    <p class="date">05.08.2026</p>
+                    <h3>New bonus program is live!</h3>
+                    <p>Earn points with every order and redeem them for free dishes and combos.</p>
+                    <a href="#news-6-full" class="btn btn-small">Read more</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section news-full" id="news-1-full">
+            <p class="date">20.08.2026</p>
+            <h2>A delicious start to the school year!</h2>
+            <p>From September 1, every I'm restaurant in Kazakhstan offers a special school combo: a Chicken Burger, small fries, and a soft drink for only 1150 ₸. The promotion runs until September 30 and is available in all cities where I'm operates.</p>
+            <p>Come with your friends, collect bonus points on every order, and start the school year with something tasty. The combo is available for dine-in, takeaway, and delivery.</p>
+            <a href="menu.html" class="btn">See Menu</a>
+            <a href="#top" class="btn btn-outline">Back to top</a>
+        </section>
+
+        <section class="section news-full" id="news-2-full">
+            <p class="date">18.08.2026</p>
+            <h2>TASTE OR CLICK?</h2>
+            <p>Ordering through the I'm mobile app just got more rewarding. Every purchase earns you bonus points — 1 point for every 100 ₸ spent. Points accumulate automatically and can be redeemed for free dishes and full combos.</p>
+            <p>Download the app, register with your phone number, and get 100 welcome points on your first order. The app is available for iOS and Android, and works in every I'm restaurant across Kazakhstan.</p>
+            <a href="register.html" class="btn">Register</a>
+            <a href="#top" class="btn btn-outline">Back to top</a>
+        </section>
+
+        <section class="section news-full" id="news-3-full">
+            <p class="date">15.08.2026</p>
+            <h2>Buy fries — help children!</h2>
+            <p>Throughout September, part of the proceeds from every large portion of French Fries goes to a children's charity fund in Astana. The campaign is called "September 22" and aims to support kids from low-income families with school supplies.</p>
+            <p>By ordering fries, you're not just getting a tasty side — you're helping a child start the school year with everything they need. The campaign runs in all I'm restaurants until September 30.</p>
+            <a href="menu.html" class="btn">See Menu</a>
+            <a href="#top" class="btn btn-outline">Back to top</a>
+        </section>
+
+        <section class="section news-full" id="news-4-full">
+            <p class="date">12.08.2026</p>
+            <h2>Meet the new I'm in Almaty!</h2>
+            <p>A new I'm restaurant has opened at Alma-Ata Plaza in Almaty. The first 100 guests received exclusive gifts and a 20% discount on their first order. The restaurant is open every day from 10:00 to 23:00.</p>
+            <p>The new location features the full I'm menu — burgers, combos, sides, desserts, and drinks. It also has a spacious seating area for families and a pickup counter for app orders.</p>
+            <a href="contact.html" class="btn">Find Us</a>
+            <a href="#top" class="btn btn-outline">Back to top</a>
+        </section>
+
+        <section class="section news-full" id="news-5-full">
+            <p class="date">10.08.2026</p>
+            <h2>Happy Birthday, Almaty!</h2>
+            <p>From September 18 to 24, all residents and guests of Almaty get a 10% discount on any order at every I'm restaurant in the city. The promotion celebrates Almaty's birthday and is our way of saying thank you to the city that welcomed us.</p>
+            <p>The discount applies to dine-in, takeaway, and delivery orders. No promo code needed — just mention the promotion when ordering or select it in the app.</p>
+            <a href="menu.html" class="btn">See Menu</a>
+            <a href="#top" class="btn btn-outline">Back to top</a>
+        </section>
+
+        <section class="section news-full" id="news-6-full">
+            <p class="date">05.08.2026</p>
+            <h2>New bonus program is live!</h2>
+            <p>Our brand-new bonus program has launched across all I'm restaurants. Every order earns you points, and every 100 points can be redeemed for free dishes or a full combo. Points are saved to your account automatically — no card needed.</p>
+            <p>To start collecting, simply register on the site or in the app and place your first order. You'll see your current balance in the "My Account" section, along with your order history and progress toward your next free meal.</p>
+            <a href="account.html" class="btn">My Account</a>
+            <a href="#top" class="btn btn-outline">Back to top</a>
+        </section>
+
+        <section class="section app">
+            <h2>Subscribe to our newsletter</h2>
+            <p>Get the latest news and exclusive offers straight to your inbox.</p>
+
+            <form class="newsletter-form" action="#" method="POST">
+                <input type="email" name="email" placeholder="you@example.com" required>
+                <button type="submit" class="btn">Subscribe</button>
+
+                <p class="form-note">You'll receive a confirmation email.</p>
+                <div id="newsletter-result" class="form-result hidden" role="status" aria-live="polite"></div>
+            </form>
+        </section>
+
+        <section class="section app">
+            <h2>Hungry already?</h2>
+            <p>Check the menu or order delivery right now.</p>
+
+            <div class="app-buttons">
+                <a href="menu.html" class="btn">See Menu</a>
+                <a href="delivery.html" class="btn btn-outline">Order Delivery</a>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-grid">
+
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="news.html">News</a>
+                <a href="delivery.html">Delivery</a>
+                <a href="contact.html">Contacts</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contacts</h4>
+                <p>Astana, Kabanbay Batyr Ave., 26</p>
+                <p>+7 (7172) 00-00-00</p>
+                <p>info@im-food.kz</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <a href="https://www.instagram.com/imrestaurants/" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.tiktok.com/@imrestaurants" target="_blank" rel="noopener">TikTok</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="terms.html">Terms of Service</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+
+        </div>
+
+        <p class="copyright">© 2026 I'm Restaurants. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/jquery-main.js" defer></script>
+   
+</body>
+</html>

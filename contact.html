@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Restaurants — Contacts</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+        <div class="header-left">
+            <label for="nav-toggle" class="nav-btn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <a href="index.html" class="brand">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3HdzDLIrYUNQm6jm0815hrYZ7UNNwSeX7U283fPFdA&s=10"
+                     alt="I'm Restaurants">
+                <span>I'm Restaurants</span>
+            </a>
+        </div>
+
+        <div class="header-right">
+            <div id="auth-guest" class="header-auth">
+                <a href="login.html" class="header-link">Login</a>
+                <a href="register.html" class="header-link">Register</a>
+            </div>
+            <div id="auth-user" class="header-auth hidden">
+                <a href="account.html" class="header-link">My Account</a>
+                <a href="login.html" class="header-link">Log Out</a>
+            </div>
+            <a href="cart.html" class="header-cart" aria-label="Cart">
+                🛒
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+
+        <nav class="side-nav" aria-label="Main navigation">
+            <div class="side-nav-title">Navigation</div>
+            <ul>
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="menu.html">🍔 Menu</a></li>
+                <li><a href="about.html">ℹ️ About Us</a></li>
+                <li><a href="contact.html" class="active">📞 Contacts</a></li>
+                <li><a href="news.html">📰 I'm News</a></li>
+                <li><a href="delivery.html">🚚 Delivery</a></li>
+                </ul>
+        </nav>
+
+        <label for="nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Contact Us</h1>
+            <p>Questions, feedback, or partnership ideas? We'd love to hear from you.</p>
+        </section>
+        <section class="section">
+            <h2>How to reach us</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>📍 Address</h3>
+                    <p>Astana, Kabanbay Batyr Ave., 26</p>
+                </article>
+
+                <article class="card">
+                    <h3>📞 Phone</h3>
+                    <p>+7 (7172) 00-00-00</p>
+                </article>
+
+                <article class="card">
+                    <h3>✉️ Email</h3>
+                    <p>info@im-food.kz</p>
+                </article>
+
+                <article class="card">
+                    <h3>🕐 Working Hours</h3>
+                    <p>Every day · 10:00 — 23:00</p>
+                </article>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Send us a message</h2>
+
+            <form class="contact-form" action="#" method="POST">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Aida" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Feedback about your visit">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+                
+                <p class="form-note">We usually reply within 24 hours.</p>
+                <div id="contact-result" class="form-result hidden" role="status" aria-live="polite"></div>
+
+            </form>
+        </section>
+        <section class="section app">
+            <h2>Follow I'm on social media</h2>
+            <p>Get news, promotions, and behind-the-scenes stories.</p>
+
+            <div class="app-buttons">
+                <a href="https://www.instagram.com/imrestaurants/" target="_blank" rel="noopener" class="btn">Instagram</a>
+                <a href="https://www.tiktok.com/@imrestaurants" target="_blank" rel="noopener" class="btn btn-outline">TikTok</a>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="news.html">News</a>
+                <a href="delivery.html">Delivery</a>
+                <a href="contact.html">Contacts</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contacts</h4>
+                <p>Astana, Kabanbay Batyr Ave., 26</p>
+                <p>+7 (7172) 00-00-00</p>
+                <p>info@im-food.kz</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <a href="https://www.instagram.com/imrestaurants/" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.tiktok.com/@imrestaurants" target="_blank" rel="noopener">TikTok</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="terms.html">Terms of Service</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+
+        </div>
+
+        <p class="copyright">© 2026 I'm Restaurants. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/jquery-main.js" defer></script>
+    
+
+</body>
+</html>
+
+// убратт навигацию , изменить доставку и оплату улучшить свзяь между страницамии изменить структуру в корзине и улучшить убрать дупликацию доставки  скрыть глазок сделать подсказки зелеными 

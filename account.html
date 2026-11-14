@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Restaurants — My Account</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+        <div class="header-left">
+            <label for="nav-toggle" class="nav-btn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <a href="index.html" class="brand">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3HdzDLIrYUNQm6jm0815hrYZ7UNNwSeX7U283fPFdA&s=10"
+                     alt="I'm Restaurants">
+                <span>I'm Restaurants</span>
+            </a>
+        </div>
+
+        <div class="header-right">
+            <div id="auth-guest" class="header-auth">
+                <a href="login.html" class="header-link">Login</a>
+                <a href="register.html" class="header-link">Register</a>
+            </div>
+            <div id="auth-user" class="header-auth hidden">
+                <a href="account.html" class="header-link">My Account</a>
+                <a href="login.html" class="header-link">Log Out</a>
+            </div>
+            <a href="cart.html" class="header-cart" aria-label="Cart">
+                🛒
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+
+        <nav class="side-nav" aria-label="Main navigation">
+            <div class="side-nav-title">Navigation</div>
+            <ul>
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="menu.html">🍔 Menu</a></li>
+                <li><a href="about.html">ℹ️ About Us</a></li>
+                <li><a href="contact.html">📞 Contacts</a></li>
+                <li><a href="news.html">📰 I'm News</a></li>
+                <li><a href="delivery.html">🚚 Delivery</a></li>
+                 </ul>
+        </nav>
+
+        <label for="nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>My Account</h1>
+            <p>Manage your profile, orders, and bonus points.</p>
+        </section>
+
+        <section class="section">
+            <div class="profile-card">
+                <div class="avatar">GU</div>
+
+                <div class="profile-info">
+                    <h2>Guest User</h2>
+                    <p><strong>Username:</strong> guest_user</p>
+                    <p><strong>Email:</strong> guest@im-food.kz</p>
+                    <p><strong>Member since:</strong> January 2026</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="bonus-card">
+                <div class="bonus-info">
+                    <h2>I'm Bonus Points</h2>
+                    <p class="points">340 <span>points</span></p>
+                    <p>Collect 100 more points for a <strong>free I'm Combo</strong>!</p>
+                </div>
+
+                <div class="bonus-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 77%;"></div>
+                    </div>
+                    <p class="progress-label">340 / 440 points</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section-head">
+                <h2>My Orders</h2>
+                <a href="menu.html">Order again →</a>
+            </div>
+
+            <div class="orders">
+
+                <article class="order-item">
+                    <div class="order-main">
+                        <h3>Order #1042 — 2500 ₸</h3>
+                        <p>I'm Combo · 2 items · 12 Jan 2026</p>
+                    </div>
+                    <span class="order-status">Delivered</span>
+                </article>
+
+                <article class="order-item">
+                    <div class="order-main">
+                        <h3>Order #1038 — 1800 ₸</h3>
+                        <p>Grand Burger · 1 item · 05 Jan 2026</p>
+                    </div>
+                    <span class="order-status">Delivered</span>
+                </article>
+
+                <article class="order-item">
+                    <div class="order-main">
+                        <h3>Order #1031 — 4150 ₸</h3>
+                        <p>Combo Beef Tasty · 3 items · 28 Dec 2025</p>
+                    </div>
+                    <span class="order-status">Delivered</span>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section app">
+            <h2>Quick Actions</h2>
+            <p>What would you like to do next?</p>
+
+            <div class="app-buttons">
+                <a href="menu.html" class="btn">Order Food</a>
+                <a href="contact.html" class="btn btn-outline">Contact Support</a>
+                <a href="login.html" class="btn btn-outline">Log Out</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="news.html">News</a>
+                <a href="delivery.html">Delivery</a>
+                <a href="contact.html">Contacts</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contacts</h4>
+                <p>Astana, Kabanbay Batyr Ave., 26</p>
+                <p>+7 (7172) 00-00-00</p>
+                <p>info@im-food.kz</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <a href="https://www.instagram.com/imrestaurants/" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.tiktok.com/@imrestaurants" target="_blank" rel="noopener">TikTok</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="terms.html">Terms of Service</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+
+        </div>
+
+        <p class="copyright">© 2026 I'm Restaurants. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/jquery-main.js" defer></script>
+</body>
+</html>
